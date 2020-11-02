@@ -1273,7 +1273,7 @@ msgstr "用户设置"
 
 #: inc/user-actions.php:128
 msgid "Logout"
-msgstr "登出"
+msgstr "退出"
 
 #: inc/user-actions.php:203
 msgid "Manga Settings"
