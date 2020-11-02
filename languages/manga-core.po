@@ -1,0 +1,3262 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Manga Core\n"
+"POT-Creation-Date: 2020-04-10 14:03+0700\n"
+"PO-Revision-Date: 2018-06-28 21:47+0700\n"
+"Last-Translator: \n"
+"Language-Team: mangabooth <mangabooth@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;esc_html_e;_e;esc_html__;"
+"esc_attr__;esc_attr_e;_n;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/ajax.php:81 inc/ajax/backend.php:329 inc/ajax/backend.php:687
+#: inc/ajax/backend.php:739 inc/ajax/upload.php:117
+#: inc/versions/1.5/ajax.php:77
+msgid "Missing Post ID"
+msgstr "缺少文章ID"
+
+#: inc/ajax/backend.php:57 inc/ajax/upload.php:158
+msgid "Upload error. Please try again"
+msgstr "上传失败，请重试"
+
+#: inc/ajax/backend.php:135 inc/ajax/upload.php:171 inc/ajax/upload.php:285
+msgid ""
+"Invalid Zip file for Manga Chapter upload. This should be zip file for Video "
+"or Text Chapter upload."
+msgstr ""
+
+#: inc/ajax/backend.php:146 inc/ajax/upload.php:296
+msgid ""
+"Invalid Zip file for Single Chapter upload. This is Multi Chapters Upload "
+"zip file"
+msgstr ""
+
+#: inc/ajax/backend.php:148 inc/ajax/upload.php:298
+msgid "Unsupported Zip File for Single Chapter upload"
+msgstr ""
+
+#: inc/ajax/backend.php:222 inc/ajax/backend.php:262 inc/ajax/upload.php:357
+msgid "Upload failed. Please try again later"
+msgstr ""
+
+#: inc/ajax/backend.php:251
+msgid "Upload failed. No images uploaded. Please try again later"
+msgstr ""
+
+#: inc/ajax/backend.php:256
+msgid "Upload Successful"
+msgstr "上传成功"
+
+#: inc/ajax/backend.php:280
+msgid "Error"
+msgstr "错误"
+
+#: inc/ajax/backend.php:288 inc/upload/googlephotos.php:192
+msgid "Album Name cannot be empty"
+msgstr ""
+
+#: inc/ajax/backend.php:316 inc/upload/googlephotos.php:220
+msgid "Cannot find this album"
+msgstr ""
+
+#: inc/ajax/backend.php:333
+msgid "Missing Chapter ID"
+msgstr ""
+
+#: inc/ajax/backend.php:339
+msgid "Cannot find this Chapter"
+msgstr ""
+
+#: inc/ajax/backend.php:363
+msgid "Cannot find Chapter Content Data"
+msgstr ""
+
+#: inc/ajax/backend.php:375
+msgid "Cannot find this Chapter in JSON file"
+msgstr ""
+
+#: inc/ajax/backend.php:567
+msgid "Something wrong happened. Please try again later"
+msgstr ""
+
+#: inc/ajax/backend.php:602
+msgid "<span> Nothing matches </span>"
+msgstr "<span>没有匹配的内容</span>"
+
+#: inc/ajax/backend.php:633 inc/upload/google-upload.php:267
+#: inc/upload/googlephotos.php:605
+#, php-format
+msgid "[Album] %s (having %d items)"
+msgstr ""
+
+#: inc/ajax/backend.php:647 inc/ajax/backend.php:671
+msgid "Missing Volume ID"
+msgstr ""
+
+#: inc/ajax/backend.php:691 inc/ajax/backend.php:743
+msgid "Missing Chapter Type"
+msgstr ""
+
+#: inc/ajax/backend.php:697
+msgid "Invalid Chapter Type"
+msgstr ""
+
+#: inc/ajax/backend.php:719
+msgid "Missing File"
+msgstr ""
+
+#: inc/ajax/backend.php:729
+msgid ""
+"Invalid Zip file for Manga Chapter Content type upload. This should be zip "
+"file for Manga Images Chapter type upload."
+msgstr ""
+
+#: inc/ajax/backend.php:731 inc/ajax/upload.php:176
+msgid ""
+"Invalid Zip file for Multi Chapters upload. This is Single Chapter upload "
+"zip file"
+msgstr ""
+
+#: inc/ajax/backend.php:733 inc/ajax/upload.php:178
+msgid "Unsupported Zip File for Multi Chapters upload"
+msgstr ""
+
+#: inc/ajax/frontend.php:163 inc/functions.php:1012 inc/functions.php:1414
+#: inc/manga-type/manga-chapter.php:122 inc/versions/1.5/functions.php:893
+#: inc/versions/1.5/functions.php:1226
+msgid "No Volume"
+msgstr ""
+
+#: inc/ajax/frontend.php:169
+msgid "Select Chapter"
+msgstr "选择章节"
+
+#: inc/ajax/frontend.php:320
+msgid "<span>You haven't bookmarked any manga yet</span>"
+msgstr "<span>您还未添加任何书签</span>"
+
+#: inc/ajax/frontend.php:362
+msgid "<span>You haven't bookmark any manga yet</span>"
+msgstr "<span>您还未添加任何书签</span>"
+
+#: inc/ajax/frontend.php:371
+msgid "Eh, try to cheat ahh !?"
+msgstr ""
+
+#: inc/ajax/frontend.php:576
+#, php-format
+msgid "Average %1s / %2s out of %3s total vote."
+msgstr "%1s / %2s"
+
+#: inc/ajax/frontend.php:594
+msgid "I smell some cheating here"
+msgstr ""
+
+#: inc/ajax/frontend.php:602 inc/ajax/frontend.php:625
+msgid "Upload failed! Please try again later"
+msgstr ""
+
+#: inc/ajax/frontend.php:673 inc/ajax/upload.php:182
+msgid "Missing post ID"
+msgstr ""
+
+#: inc/ajax/frontend.php:677
+msgid "Missing Query Page"
+msgstr ""
+
+#: inc/ajax/frontend.php:681
+msgid "Missing Chapter param"
+msgstr ""
+
+#: inc/ajax/frontend.php:691 inc/user-actions.php:447
+msgid "Chapter not found"
+msgstr ""
+
+#: inc/ajax/frontend.php:776
+msgid "No manga found"
+msgstr ""
+
+#: inc/ajax/frontend.php:815 inc/post-type.php:39
+msgid "No Manga found"
+msgstr ""
+
+#: inc/ajax/upload.php:23
+msgid "Missing Information"
+msgstr ""
+
+#: inc/ajax/upload.php:55 inc/ajax/upload.php:232
+msgid ""
+"This Chapter name is already existed, please choose if you want to over "
+"write or create a new one"
+msgstr ""
+
+#: inc/ajax/upload.php:86
+msgid "Invalid storage"
+msgstr ""
+
+#: inc/ajax/upload.php:97
+msgid "Cannot import album to Chapter"
+msgstr ""
+
+#: inc/ajax/upload.php:137
+msgid "Chapter is created successfully!"
+msgstr ""
+
+#: inc/ajax/upload.php:202
+msgid "Please choose zip file to upload"
+msgstr ""
+
+#: inc/ajax/upload.php:205
+msgid "Something wrong happened, please try again later"
+msgstr ""
+
+#: inc/comments/wp-comments.php:21
+msgid "Chapter"
+msgstr "章节"
+
+#: inc/extras.php:117
+#, php-format
+msgid ""
+"A new comment on the chapter \"%s\" of \"%s\" is waiting for your approval"
+msgstr ""
+
+#: inc/extras.php:120
+#, php-format
+msgid "Author: %1$s (IP address: %2$s, %3$s)"
+msgstr "作者：%1$s (IP: %2$s, %3$s)"
+
+#: inc/extras.php:122
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: inc/extras.php:124
+#, php-format
+msgid "URL: %s"
+msgstr ""
+
+#: inc/extras.php:126
+#, php-format
+msgid "Comment: %s"
+msgstr ""
+
+#: inc/extras.php:129
+#, php-format
+msgid "Approve it: %s"
+msgstr ""
+
+#: inc/extras.php:133
+#, php-format
+msgid "Trash it: %s"
+msgstr ""
+
+#: inc/extras.php:136
+#, php-format
+msgid "Delete it: %s"
+msgstr ""
+
+#: inc/extras.php:140
+#, php-format
+msgid "Spam it: %s"
+msgstr ""
+
+#: inc/extras.php:145
+#, php-format
+msgid ""
+"Currently %s comment is waiting for approval. Please visit the moderation "
+"panel:"
+msgstr ""
+
+#: inc/extras.php:161
+#, php-format
+msgid ""
+"<p class=\"must-log-in\">\n"
+"\t\t\t\t\t You must <a href=\"%s\" data-toggle=\"modal\" data-target=\"#form-"
+"sign-up\">Register</a> or \n"
+"\t\t\t\t\t <a href=\"%s\" data-toggle=\"modal\" data-target=\"#form-login"
+"\">Login</a> to post a comment.</p>"
+msgstr ""
+
+#: inc/extras.php:178
+#, php-format
+msgid " %1s, it has %2s view"
+msgstr "%1s,共被查看%2s次"
+
+#: inc/first-install.php:25
+msgid ""
+"<strong>WP Manga Plugin</strong> &#8211; Get started with WP Manga Plugin!"
+msgstr ""
+
+#: inc/first-install.php:27
+msgid "Let's go!"
+msgstr "开始吧！"
+
+#: inc/first-install.php:28
+msgid "Skip this"
+msgstr "跳过"
+
+#: inc/first-install.php:38 inc/first-install.php:39
+msgid "WP Manga Welcome"
+msgstr ""
+
+#: inc/functions.php:56 inc/versions/1.5/functions.php:49
+msgid "None"
+msgstr "无"
+
+#: inc/functions.php:118
+#, php-format
+msgid "%dst"
+msgstr ""
+
+#: inc/functions.php:120
+#, php-format
+msgid "%dnd"
+msgstr ""
+
+#: inc/functions.php:122
+#, php-format
+msgid "%drd"
+msgstr ""
+
+#: inc/functions.php:124
+#, php-format
+msgid "%dth"
+msgstr ""
+
+#: inc/functions.php:129
+msgid "N/A"
+msgstr "无"
+
+#: inc/functions.php:282 inc/versions/1.5/functions.php:249
+msgid "<span class=\"score font-meta total_votes\">Your Rating</span>"
+msgstr "<span class=\"score font-meta total_votes\">您的评分</span>"
+
+#: inc/functions.php:393 templates/single/info-rank.php:14
+#, php-format
+msgid " %1s, it has %2s monthly view"
+msgstr "%1s,本月已经有%2s次阅读"
+
+#: inc/functions.php:417 inc/post-type.php:300
+#: inc/versions/1.5/functions.php:380
+#: templates/admin/manga-single/chapter-edit-modal.php:52
+#: templates/manga-search.php:208
+msgid "Completed"
+msgstr "完结"
+
+#: inc/functions.php:420 inc/post-type.php:299
+#: inc/versions/1.5/functions.php:374
+msgid "OnGoing"
+msgstr "更新中"
+
+#: inc/functions.php:422 inc/post-type.php:301
+#: inc/versions/1.5/functions.php:376
+msgid "Canceled"
+msgstr "停更"
+
+#: inc/functions.php:424 inc/post-type.php:302
+#: inc/versions/1.5/functions.php:378
+msgid "On Hold"
+msgstr "暂停"
+
+#: inc/functions.php:426 inc/post-type.php:303
+msgid "Upcoming"
+msgstr "敬请期待"
+
+#: inc/functions.php:664 inc/versions/1.5/functions.php:606
+#, php-format
+msgid "%s ago"
+msgstr "%s 前"
+
+#: inc/functions.php:791
+msgid "Delete Bookmark"
+msgstr "删除书签"
+
+#: inc/functions.php:796
+#, php-format
+msgid "You bookmarked this with %s others"
+msgstr "您添加了书签以及 %s 其他"
+
+#: inc/functions.php:796
+msgid "You bookmarked this with one another"
+msgstr "您添加了书签以及另外一个"
+
+#: inc/functions.php:796
+msgid "You bookmarked this"
+msgstr "您添加了书签"
+
+#: inc/functions.php:810
+msgid "Bookmark"
+msgstr "书签"
+
+#: inc/functions.php:815
+#, php-format
+msgid "%s Users bookmarked This"
+msgstr "%s 位用户在此处添加了书签"
+
+#: inc/functions.php:815 inc/versions/1.5/functions.php:740
+msgid "Bookmark This"
+msgstr "添加书签"
+
+#: inc/functions.php:843
+msgid "(uploading)"
+msgstr "(上传中)"
+
+#: inc/functions.php:846
+msgid "(completed)"
+msgstr "(完成)"
+
+#: inc/functions.php:867 inc/versions/1.5/functions.php:776
+#: templates/admin/manga-single/chapter-edit-modal.php:143
+msgid "Delete Chapter"
+msgstr "删除章节"
+
+#: inc/functions.php:889 inc/versions/1.5/functions.php:798
+msgid "No Volume "
+msgstr ""
+
+#: inc/functions.php:891 inc/functions.php:923
+#: inc/versions/1.5/functions.php:800 inc/versions/1.5/functions.php:832
+msgid "Delete Volume"
+msgstr ""
+
+#: inc/functions.php:922 inc/versions/1.5/functions.php:831
+msgid "Edit Volume Name"
+msgstr ""
+
+#: inc/functions.php:936 inc/versions/1.5/functions.php:845
+msgid "There is no chapter in this volume "
+msgstr ""
+
+#: inc/login/login.php:57
+msgid "Please enter username"
+msgstr "请输入用户名"
+
+#: inc/login/login.php:58
+msgid "Please enter password"
+msgstr "请输入密码"
+
+#: inc/login/login.php:59
+msgid "Invalid username or password"
+msgstr "无效的用户名或密码"
+
+#: inc/login/login.php:60
+msgid "Server Error!"
+msgstr "服务器错误！"
+
+#: inc/login/login.php:61
+msgid "Username or Email cannot be empty"
+msgstr "用户名或Email不能为空"
+
+#: inc/login/login.php:62
+msgid "Please fill in all password fields."
+msgstr "请输入所有的密码字段"
+
+#: inc/login/login.php:63
+msgid "Password cannot has less than 12 characters"
+msgstr "密码不能少于12位"
+
+#: inc/login/login.php:64
+msgid "Password doesn't match. Please  try again."
+msgstr "密码不匹配，请重试"
+
+#: inc/login/login.php:65
+msgid "Username cannot be empty"
+msgstr "用户名不能为空"
+
+#: inc/login/login.php:66
+msgid "Email cannot be empty"
+msgstr "Email不能为空"
+
+#: inc/login/login.php:67
+msgid "Password cannot be empty"
+msgstr "密码不能为空"
+
+#: inc/login/login.php:75
+msgid "Invalid Login Request"
+msgstr "无效的登陆请求"
+
+#: inc/login/login.php:120
+msgid "Invalid email address. Please check again."
+msgstr "无效的Email地址，请重试"
+
+#: inc/login/login.php:130
+msgid "Password must have at least 6 characters."
+msgstr "密码至少需要6位"
+
+#: inc/login/login.php:141
+msgid "Registration successfully! You can login now."
+msgstr "恭喜，注册成功！请登陆"
+
+#: inc/login/login.php:144
+msgid "There was an error when registration"
+msgstr "注册失败"
+
+#: inc/login/login.php:154
+msgid "Username or email address cannot be empty"
+msgstr "用户名或Email不能为空"
+
+#: inc/login/login.php:164
+msgid "Please check your email to get reset password link."
+msgstr "请查看Email，在邮件中重置密码"
+
+#: inc/login/login.php:209
+msgid "Invalid user login"
+msgstr "无效用户登陆"
+
+#: inc/login/login.php:229
+msgid "Someone has requested a password reset for the following account:"
+msgstr "有人正在请求为以下账户重置密码："
+
+#: inc/login/login.php:232
+#, php-format
+msgid "Username: %s"
+msgstr "用户名: %s"
+
+#: inc/login/login.php:233
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "如果您认为此内容有误，请忽略本邮件"
+
+#: inc/login/login.php:234
+msgid "To reset your password, visit the following address:"
+msgstr "要继续重置密码的话，请访问以下地址："
+
+#: inc/login/login.php:238
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] 密码已经重置"
+
+#: inc/login/login.php:245
+msgid "The email could not be sent."
+msgstr "电子邮件发送失败"
+
+#: inc/login/login.php:285 inc/login/login.php:312
+msgid "Invalid reset password request"
+msgstr "无效的重置密码请求"
+
+#: inc/login/login.php:292
+msgid "Invalid password requested"
+msgstr "无效的密码请求"
+
+#: inc/login/login.php:301
+msgid "User not found"
+msgstr "未找到用户"
+
+#: inc/login/login.php:307
+msgid "Password reset successuflly! You can login now."
+msgstr "密码重置成功！请登陆"
+
+#: inc/manga-type/manga-chapter.php:88
+#, php-format
+msgid "Host: %s"
+msgstr ""
+
+#: inc/manga-type/manga-chapter.php:88
+#, php-format
+msgid "Server %s"
+msgstr ""
+
+#: inc/manga-type/manga-chapter.php:177
+msgid "List style"
+msgstr ""
+
+#: inc/manga-type/manga-chapter.php:178
+msgid "Paged style"
+msgstr ""
+
+#: inc/manga-type/manga-chapter.php:239 inc/manga-type/manga-chapter.php:450
+#: inc/manga-type/manga-chapter.php:456 inc/manga-type/text-chapter.php:151
+#: wp-manga.php:502
+msgid "Prev"
+msgstr "前一章"
+
+#: inc/manga-type/manga-chapter.php:248 inc/manga-type/manga-chapter.php:464
+#: inc/manga-type/manga-chapter.php:484 inc/manga-type/text-chapter.php:158
+#: templates/first-install/step-0.php:14 templates/first-install/step-1.php:154
+#: templates/first-install/step-2.php:58 templates/first-install/step-3.php:36
+#: templates/first-install/step-4.php:19 wp-manga.php:503
+msgid "Next"
+msgstr "后一章"
+
+#: inc/manga-type/manga-chapter.php:261 inc/manga-type/manga-chapter.php:476
+#: inc/manga-type/text-chapter.php:170 wp-manga.php:501
+msgid "Manga Info"
+msgstr "漫画信息"
+
+#: inc/manga-type/text-chapter.php:55
+msgid "Light off"
+msgstr "关灯"
+
+#: inc/manga-type/text-chapter.php:55
+msgid "Light on"
+msgstr "开灯"
+
+#: inc/manga-type/text-chapter.php:234
+msgid "Cannot insert Chapter"
+msgstr "无法插入章节"
+
+#: inc/manga-type/text-chapter.php:254
+msgid "Cannot create chapter"
+msgstr "无法创建章节"
+
+#: inc/manga-type/text-chapter.php:272 inc/storage.php:1179
+#: inc/versions/1.5/storage.php:1099
+msgid "Cannot open Zip file "
+msgstr ""
+
+#: inc/manga-type/text-chapter.php:378
+msgid "Upload failed"
+msgstr ""
+
+#: inc/manga-type/text-chapter.php:386
+msgid "Upload failed. Cannot insert content. Please check your content"
+msgstr ""
+
+#: inc/manga-type/text-chapter.php:393
+msgid "Upload successfully"
+msgstr ""
+
+#: inc/post-type.php:27 templates/user/page/bookmark.php:19
+msgid "Manga Name"
+msgstr "漫画名称"
+
+#: inc/post-type.php:29 inc/post-type.php:30 inc/post-type.php:31
+#: wp-manga.php:629
+msgid "Manga"
+msgstr "漫画"
+
+#: inc/post-type.php:32
+msgid "All Manga"
+msgstr "所有漫画"
+
+#: inc/post-type.php:33
+msgid "Add New"
+msgstr "新增"
+
+#: inc/post-type.php:34
+msgid "Add New Manga"
+msgstr "添加新漫画"
+
+#: inc/post-type.php:35
+msgid "Edit Manga"
+msgstr "编辑漫画"
+
+#: inc/post-type.php:36 inc/widgets/manga-popular-slider.php:37
+#: inc/widgets/manga-slider.php:37 inc/widgets/recent-manga.php:223
+msgid "New Manga"
+msgstr "新漫画"
+
+#: inc/post-type.php:37
+msgid "View Manga"
+msgstr "查看漫画"
+
+#: inc/post-type.php:38
+msgid "Search Manga"
+msgstr "搜索"
+
+#: inc/post-type.php:40
+msgid "No Manga found in Trash"
+msgstr ""
+
+#: inc/post-type.php:79 inc/post-type.php:80 inc/post-type.php:81
+#: inc/widgets/manga-popular-slider.php:116 inc/widgets/manga-slider.php:116
+msgid "Manga Tags"
+msgstr ""
+
+#: inc/post-type.php:82
+msgid "All Manga Tags"
+msgstr ""
+
+#: inc/post-type.php:83
+msgid "Edit Manga Tag"
+msgstr ""
+
+#: inc/post-type.php:84
+msgid "View Manga Tag"
+msgstr ""
+
+#: inc/post-type.php:85
+msgid "Update Manga Tag"
+msgstr ""
+
+#: inc/post-type.php:86
+msgid "Add Manga Tag"
+msgstr ""
+
+#: inc/post-type.php:87
+msgid "New Manga Tag"
+msgstr ""
+
+#: inc/post-type.php:88
+msgid "Parent Manga Tag"
+msgstr ""
+
+#: inc/post-type.php:89
+msgid "Parent Manga Tag:"
+msgstr ""
+
+#: inc/post-type.php:90
+msgid "Search Manga Tag"
+msgstr ""
+
+#: inc/post-type.php:111 inc/post-type.php:112 inc/post-type.php:113
+msgid "Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:114
+msgid "All Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:115
+msgid "Edit Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:116
+msgid "View Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:117
+msgid "Update Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:118
+msgid "Add New Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:119
+msgid "New Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:120
+msgid "Parent Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:121
+msgid "Parent Manga Release Year:"
+msgstr ""
+
+#: inc/post-type.php:122
+msgid "Search Manga Release Year"
+msgstr ""
+
+#: inc/post-type.php:123
+msgid "Separate Release Years with commas"
+msgstr ""
+
+#: inc/post-type.php:124
+msgid "Choose from the most used release years"
+msgstr ""
+
+#: inc/post-type.php:146 inc/post-type.php:148
+msgid "Manga Authors"
+msgstr ""
+
+#: inc/post-type.php:147
+msgid "Manga Author"
+msgstr ""
+
+#: inc/post-type.php:149
+msgid "All Manga Authors"
+msgstr ""
+
+#: inc/post-type.php:150
+msgid "Edit Manga Author"
+msgstr ""
+
+#: inc/post-type.php:151
+msgid "View Manga Author"
+msgstr ""
+
+#: inc/post-type.php:152
+msgid "Update Manga Author"
+msgstr ""
+
+#: inc/post-type.php:153
+msgid "Add New Manga Author"
+msgstr ""
+
+#: inc/post-type.php:154
+msgid "New Manga Author Name"
+msgstr ""
+
+#: inc/post-type.php:155
+msgid "Search Manga Author"
+msgstr ""
+
+#: inc/post-type.php:156
+msgid "Popular Manga Author"
+msgstr ""
+
+#: inc/post-type.php:157
+msgid "Separate authors with commas"
+msgstr ""
+
+#: inc/post-type.php:158
+msgid "Add or remove authors"
+msgstr ""
+
+#: inc/post-type.php:159
+msgid "Choose from the most used authors"
+msgstr ""
+
+#: inc/post-type.php:160
+msgid "No authors found."
+msgstr "没有找到作者"
+
+#: inc/post-type.php:182 inc/post-type.php:184
+msgid "Manga Artists"
+msgstr "漫画创作者"
+
+#: inc/post-type.php:183
+msgid "Manga Artist"
+msgstr "漫画创作者"
+
+#: inc/post-type.php:185
+msgid "All Manga Artists"
+msgstr "所有漫画创作者"
+
+#: inc/post-type.php:186
+msgid "Edit Manga Artist"
+msgstr "编辑漫画创作者"
+
+#: inc/post-type.php:187
+msgid "View Manga Artist"
+msgstr "查看漫画创作者"
+
+#: inc/post-type.php:188
+msgid "Update Manga Artist"
+msgstr "更新漫画创作者"
+
+#: inc/post-type.php:189
+msgid "Add New Manga Artist"
+msgstr "添加新漫画创作者"
+
+#: inc/post-type.php:190
+msgid "New Manga Artist Name"
+msgstr "新漫画创作者名字"
+
+#: inc/post-type.php:191
+msgid "Search Manga Artist"
+msgstr "搜索漫画创作者"
+
+#: inc/post-type.php:192
+msgid "Popular Manga Artist"
+msgstr "受欢迎的漫画创作者"
+
+#: inc/post-type.php:193
+msgid "Separate artists with commas"
+msgstr "用逗号区分创作者"
+
+#: inc/post-type.php:194
+msgid "Add or remove Artists"
+msgstr "添加或者移除创作者"
+
+#: inc/post-type.php:195
+msgid "Choose from the most used Artists"
+msgstr "从最多使用的创作者中选择"
+
+#: inc/post-type.php:196
+msgid "No Artists found."
+msgstr "没有发现任何创作者"
+
+#: inc/post-type.php:219 inc/post-type.php:221
+msgid "Manga Genres"
+msgstr ""
+
+#: inc/post-type.php:220
+msgid "Manga Genre"
+msgstr ""
+
+#: inc/post-type.php:222
+msgid "All Manga Genres"
+msgstr ""
+
+#: inc/post-type.php:223
+msgid "Edit Manga Genre"
+msgstr ""
+
+#: inc/post-type.php:224
+msgid "View Manga Genre"
+msgstr ""
+
+#: inc/post-type.php:225
+msgid "Update Manga Genre"
+msgstr ""
+
+#: inc/post-type.php:226
+msgid "Add New Manga Genre"
+msgstr ""
+
+#: inc/post-type.php:227
+msgid "New Manga Genre Name"
+msgstr ""
+
+#: inc/post-type.php:228
+msgid "Parent Manga Genre"
+msgstr ""
+
+#: inc/post-type.php:229
+msgid "Parent Manga Genre:"
+msgstr ""
+
+#: inc/post-type.php:230
+msgid "Search Manga Genres"
+msgstr ""
+
+#: inc/post-type.php:268
+msgid "WP Manga"
+msgstr ""
+
+#: inc/post-type.php:273
+msgid "Manga Status"
+msgstr ""
+
+#: inc/post-type.php:278
+msgid "Manga Views"
+msgstr ""
+
+#: inc/post-type.php:403
+msgid "Download Manga"
+msgstr ""
+
+#: inc/settings.php:18
+msgid "WP Manga Settings"
+msgstr ""
+
+#: inc/settings.php:167
+msgid "MANGA DISCUSSION"
+msgstr ""
+
+#: inc/settings.php:172
+msgid "Local"
+msgstr ""
+
+#: inc/settings.php:173
+msgid "Disqus"
+msgstr ""
+
+#: inc/sidebar.php:17
+msgid "WP Manga - Archives Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:18
+msgid "Appear in Manga Archives Page"
+msgstr ""
+
+#: inc/sidebar.php:26
+msgid "WP Manga - Single Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:27
+msgid "Appear in Single Manga Page"
+msgstr ""
+
+#: inc/sidebar.php:36
+msgid "WP Manga - Reading Page Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:37
+msgid "Appear in Manga Reading Page"
+msgstr ""
+
+#: inc/storage.php:482
+msgid "Unknown error"
+msgstr ""
+
+#: inc/storage.php:512 inc/storage.php:556 inc/versions/1.5/storage.php:511
+msgid "Chapter doesn't exists"
+msgstr ""
+
+#: inc/storage.php:518
+msgid "Chapter does not exist on this server"
+msgstr ""
+
+#: inc/storage.php:539
+msgid "Remove successfully!"
+msgstr ""
+
+#: inc/storage.php:541
+msgid "Cannot remove the last storage"
+msgstr ""
+
+#: inc/storage.php:560 inc/versions/1.5/storage.php:515
+msgid "Chapter is already existed on this server"
+msgstr ""
+
+#: inc/storage.php:620 inc/versions/1.5/storage.php:577
+msgid "There was something wrong happened, please try again later "
+msgstr ""
+
+#: inc/storage.php:634 inc/versions/1.5/storage.php:587
+msgid "Duplicate successfully!"
+msgstr ""
+
+#: inc/storage.php:822 inc/versions/1.5/storage.php:760
+msgid "Download Content Chapter is not supported"
+msgstr ""
+
+#: inc/storage.php:914 inc/versions/1.5/storage.php:834
+msgid "Cannot create zip file"
+msgstr ""
+
+#: inc/storage.php:928 inc/versions/1.5/storage.php:848
+msgid "This Manga doesn't have any chapter"
+msgstr ""
+
+#: inc/storage.php:936 inc/versions/1.5/storage.php:863
+msgid "This Manga doesn't have any chapters"
+msgstr ""
+
+#: inc/storage.php:1111 inc/versions/1.5/storage.php:1031
+msgid ""
+"Oops, Imgur only allows user to upload maximum 50 images per hour, but your "
+"file contains more than 50 images. Please try another files"
+msgstr ""
+
+#: inc/storage.php:1121 inc/versions/1.5/storage.php:1041
+msgid "Not found this Album"
+msgstr ""
+
+#: inc/storage.php:1242 inc/versions/1.5/storage.php:1162
+msgid "Access denied! Please check directory permission"
+msgstr ""
+
+#: inc/storage.php:1326 inc/versions/1.5/storage.php:1228
+msgid "Upload Complete!"
+msgstr ""
+
+#: inc/storage.php:1331 inc/versions/1.5/storage.php:1233
+msgid "This zip file is invalid for uploading manga"
+msgstr ""
+
+#: inc/upgrade.php:56
+msgid "Madara - Core upgraded successfully!"
+msgstr ""
+
+#: inc/upgrade.php:100
+#, php-format
+msgid ""
+"<p><strong>IMPORTANT UPDATE : </strong> We will need to update database to "
+"make your site compatible with Madara-Core 1.5.</p> <a href=\"%s\" class="
+"\"button button-primary\">Click here to start</a>"
+msgstr ""
+
+#: inc/upgrade.php:109 inc/upgrade.php:110
+msgid "Madara - Core upgrading..."
+msgstr ""
+
+#: inc/upgrade.php:315
+msgid "Madara - Core Upgrading..."
+msgstr ""
+
+#: inc/upgrade.php:412
+msgid "The upgrade is progressing in other tab..."
+msgstr ""
+
+#: inc/upgrade.php:418
+msgid "Upgraded successfully!"
+msgstr ""
+
+#: inc/upload/amazon-upload.php:227 inc/upload/flickr-upload.php:98
+#: inc/upload/google-upload.php:111 inc/upload/googlephotos.php:399
+#: inc/upload/imgur-upload.php:93
+msgid "Images do not exist"
+msgstr "未找到图片"
+
+#: inc/upload/amazon-upload.php:253
+msgid ""
+"You do not have any Amazon Buckets. Please create one and configure in WP "
+"Manga Storage page"
+msgstr ""
+
+#: inc/upload/flickr-upload.php:105
+msgid "Flickr Access Token does not exist"
+msgstr ""
+
+#: inc/upload/google-upload.php:121 inc/upload/googlephotos.php:407
+msgid "Please configure Google Refresh Token"
+msgstr ""
+
+#: inc/upload/google-upload.php:380
+msgid "Not found album"
+msgstr ""
+
+#: inc/upload/googlephotos.php:14 inc/upload/googlephotos.php:141
+msgid "Google Photos"
+msgstr ""
+
+#: inc/upload/googlephotos.php:15
+#: templates/admin/settings/settings-storage.php:35
+msgid ""
+" - You can start using this upload feature when you see the Authorizing "
+"success display."
+msgstr ""
+
+#: inc/upload/googlephotos.php:16
+#: templates/admin/settings/settings-storage.php:36
+msgid " - Allow to upload only Image file type at this time."
+msgstr ""
+
+#: inc/upload/googlephotos.php:19
+msgid "* For Google Photos Api register :"
+msgstr ""
+
+#: inc/upload/googlephotos.php:21
+msgid ""
+" - You need to create a Oauth Client ID Credential and when setting, "
+"remember to put the redirect URL to your website. "
+msgstr ""
+
+#: inc/upload/googlephotos.php:26
+#: templates/admin/settings/settings-storage.php:46
+#: templates/admin/settings/settings-storage.php:161
+msgid "Client ID"
+msgstr ""
+
+#: inc/upload/googlephotos.php:32
+#: templates/admin/settings/settings-storage.php:52
+msgid "You can register the client ID at"
+msgstr ""
+
+#: inc/upload/googlephotos.php:34
+#: templates/admin/settings/settings-storage.php:54
+msgid "developers.google.com"
+msgstr ""
+
+#: inc/upload/googlephotos.php:41
+#: templates/admin/settings/settings-storage.php:61
+#: templates/admin/settings/settings-storage.php:182
+msgid "Client Secret"
+msgstr ""
+
+#: inc/upload/googlephotos.php:47
+msgid ""
+"You will need Client Secret to Authorize and Upload to googlephotos function"
+msgstr ""
+
+#: inc/upload/googlephotos.php:53
+#: templates/admin/settings/settings-storage.php:73
+msgid "Redirect URL"
+msgstr ""
+
+#: inc/upload/googlephotos.php:59
+#: templates/admin/settings/settings-storage.php:79
+msgid ""
+"Redirect URL need to match Credential's redirect URL when creating API "
+"Credential "
+msgstr ""
+
+#: inc/upload/googlephotos.php:66
+#: templates/admin/settings/settings-storage.php:86
+msgid "Refresh Token"
+msgstr ""
+
+#: inc/upload/googlephotos.php:72
+#: templates/admin/settings/settings-storage.php:92
+msgid ""
+"Google Refresh Token only being provided at the first time Authorizing the "
+"App, so you should remember or save the token to use the client ID again."
+msgstr ""
+
+#: inc/upload/googlephotos.php:75
+#: templates/admin/settings/settings-storage.php:95
+msgid ""
+"Also if you have saved the Refresh Token along with Client ID and Secret, "
+"you can just fill all the details and don't need to authorize again. "
+msgstr ""
+
+#: inc/upload/googlephotos.php:78
+#: templates/admin/settings/settings-storage.php:98
+msgid "This will be auto generate when Authorize Process success."
+msgstr ""
+
+#: inc/upload/googlephotos.php:89
+#: templates/admin/settings/settings-storage.php:111
+#: templates/admin/settings/settings-storage.php:195
+#: templates/admin/settings/settings-storage.php:255
+#: templates/admin/settings/settings-storage.php:376
+msgid "Authorize"
+msgstr ""
+
+#: inc/upload/googlephotos.php:98
+#: templates/admin/settings/settings-storage.php:120
+#: templates/admin/settings/settings-storage.php:204
+#: templates/admin/settings/settings-storage.php:264
+#: templates/admin/settings/settings-storage.php:382
+msgid "Authorizing Success"
+msgstr ""
+
+#: inc/upload/googlephotos.php:103
+#: templates/admin/settings/settings-storage.php:125
+msgid "Authorizing Failed. "
+msgstr ""
+
+#: inc/upload/googlephotos.php:112
+msgid ""
+"You still need to authorize Google Photos again if you have authorized with "
+"Google Picasa/Blogspot as they are using different scope permissions. Google "
+"Picasa/Blogspot will be shutdown on March 15. 2019, so please consider "
+"moving data to Google Photos as soon as possible"
+msgstr ""
+
+#: inc/upload/googlephotos.php:116
+msgid "Create Album"
+msgstr ""
+
+#: inc/upload/googlephotos.php:118
+msgid "for All chapters in Manga"
+msgstr ""
+
+#: inc/upload/googlephotos.php:119
+msgid "for each chapter in Manga"
+msgstr ""
+
+#: inc/upload/googlephotos.php:156
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:213
+msgid "Search Album by Name"
+msgstr ""
+
+#: inc/upload/googlephotos.php:159
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:216
+msgid "Album Name"
+msgstr ""
+
+#: inc/upload/googlephotos.php:165
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:222
+msgid ""
+"Album needs to be exactly with the album you want to import in Google Photos "
+"(case sensitive.)"
+msgstr ""
+
+#: inc/upload/googlephotos.php:172
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:229
+msgid "Select Album to Import"
+msgstr ""
+
+#: inc/upload/googlephotos.php:391
+msgid "Cannot create album"
+msgstr ""
+
+#: inc/upload/googlephotos.php:603
+msgid "New album"
+msgstr ""
+
+#: inc/upload/imgur-upload.php:110
+msgid "Please configure IMGUR Access Token"
+msgstr ""
+
+#: inc/user-actions.php:64 templates/login.php:22
+msgid "Sign in"
+msgstr "登陆"
+
+#: inc/user-actions.php:65
+msgid "Sign up"
+msgstr "注册"
+
+#: inc/user-actions.php:92
+msgid "Hi, "
+msgstr "您好，"
+
+#: inc/user-actions.php:110
+msgid "New Chapter"
+msgstr "新章节"
+
+#: inc/user-actions.php:120
+msgid "User Settings"
+msgstr "用户设置"
+
+#: inc/user-actions.php:128
+msgid "Logout"
+msgstr "登出"
+
+#: inc/user-actions.php:203
+msgid "Manga Settings"
+msgstr "漫画设置"
+
+#: inc/versions/1.5/functions.php:721
+msgid "Bookmarked"
+msgstr "已添加书签"
+
+#: inc/versions/1.5/storage.php:503
+msgid "Manga JSON file doesn't exist "
+msgstr ""
+
+#: inc/versions/1.5/storage.php:856
+msgid "Not Found Manga Json"
+msgstr ""
+
+#: inc/versions/1.5/storage.php:871
+msgid "Cannot find Manga data"
+msgstr ""
+
+#: inc/widgets/madara-mangabookmark.php:14
+msgid "Show User Manga Bookmark"
+msgstr "显示用户漫画书签"
+
+#: inc/widgets/madara-mangabookmark.php:17
+msgid "WP Manga : Manga Bookmark"
+msgstr ""
+
+#: inc/widgets/madara-mangabookmark.php:102
+#: inc/widgets/madara-mangahistory.php:77 inc/widgets/manga-authors.php:117
+#: inc/widgets/manga-genres.php:117
+msgid "Title: "
+msgstr "标题："
+
+#: inc/widgets/madara-mangabookmark.php:108
+#: inc/widgets/madara-mangahistory.php:83
+msgid "Number of manga: "
+msgstr "漫画数量："
+
+#: inc/widgets/madara-mangabookmark.php:113
+#: inc/widgets/manga-popular-slider.php:155 inc/widgets/manga-slider.php:156
+#: inc/widgets/recent-manga.php:321
+msgid "Style"
+msgstr "样式"
+
+#: inc/widgets/madara-mangabookmark.php:116
+#: inc/widgets/manga-popular-slider.php:159 inc/widgets/manga-slider.php:160
+#: inc/widgets/manga-taxonomy.php:81 inc/widgets/recent-manga.php:324
+msgid "Style 1"
+msgstr "样式 1"
+
+#: inc/widgets/madara-mangabookmark.php:117
+#: inc/widgets/manga-popular-slider.php:160 inc/widgets/manga-slider.php:161
+#: inc/widgets/manga-taxonomy.php:82 inc/widgets/recent-manga.php:325
+msgid "Style 2"
+msgstr "样式 2"
+
+#: inc/widgets/madara-mangahistory.php:14
+msgid "Show User Manga History"
+msgstr "显示用户浏览历史"
+
+#: inc/widgets/madara-mangahistory.php:17
+msgid "WP Manga : Manga History"
+msgstr ""
+
+#: inc/widgets/madara-mangahistory.php:37
+msgid "You don't have anything in histories"
+msgstr "您还没有浏览历史"
+
+#: inc/widgets/madara-posts.php:12
+msgid "Show Posts"
+msgstr "显示文章"
+
+#: inc/widgets/madara-posts.php:15 inc/widgets/madara-posts.php:20
+msgid "Madara - Posts"
+msgstr ""
+
+#: inc/widgets/madara-posts.php:42 inc/widgets/manga-popular-slider.php:49
+#: inc/widgets/manga-search.php:57 inc/widgets/manga-slider.php:49
+#: inc/widgets/recent-manga.php:243
+msgid "Title"
+msgstr "标题"
+
+#: inc/widgets/madara-posts.php:47 inc/widgets/manga-slider.php:55
+#: inc/widgets/recent-manga.php:249
+msgid "Number of posts"
+msgstr "文章数量"
+
+#: inc/widgets/madara-posts.php:54
+msgid "Choose how to query posts"
+msgstr ""
+
+#: inc/widgets/madara-posts.php:57
+msgid "Latest Posts"
+msgstr "最新"
+
+#: inc/widgets/madara-posts.php:58
+msgid "Random Posts"
+msgstr "随机"
+
+#: inc/widgets/madara-posts.php:59
+msgid "Most Commented"
+msgstr "最多评论"
+
+#: inc/widgets/madara-posts.php:65
+msgid "Choose order of posts"
+msgstr "选择更早"
+
+#: inc/widgets/madara-posts.php:68 inc/widgets/manga-popular-slider.php:43
+#: inc/widgets/manga-slider.php:43 inc/widgets/recent-manga.php:232
+msgid "ASC"
+msgstr ""
+
+#: inc/widgets/madara-posts.php:69 inc/widgets/manga-popular-slider.php:42
+#: inc/widgets/manga-slider.php:42 inc/widgets/recent-manga.php:231
+msgid "DESC"
+msgstr ""
+
+#: inc/widgets/madara-posts.php:74
+msgid "Category - Category ID or Slug"
+msgstr ""
+
+#: inc/widgets/madara-posts.php:79
+msgid "Tags - Tag List"
+msgstr ""
+
+#: inc/widgets/madara-posts.php:84
+msgid "Post IDs - If this param is used, other params are ignored"
+msgstr ""
+
+#: inc/widgets/manga-authors.php:12
+msgid "Show Manga Authors"
+msgstr ""
+
+#: inc/widgets/manga-authors.php:15
+msgid "WP Manga: Manga Authors"
+msgstr ""
+
+#: inc/widgets/manga-authors.php:123
+msgid "Exclude authors: "
+msgstr ""
+
+#: inc/widgets/manga-authors.php:125
+msgid "Use WP Manga authors ID or slug, separated by comma"
+msgstr ""
+
+#: inc/widgets/manga-authors.php:130 inc/widgets/manga-genres.php:130
+msgid "Layout: "
+msgstr ""
+
+#: inc/widgets/manga-authors.php:133 inc/widgets/manga-genres.php:133
+msgid "Layout 1 - 2 columns"
+msgstr ""
+
+#: inc/widgets/manga-authors.php:136 inc/widgets/manga-genres.php:136
+msgid "Layout 2 - 6 columns"
+msgstr ""
+
+#: inc/widgets/manga-authors.php:144 inc/widgets/manga-genres.php:144
+msgid "Show manga counts"
+msgstr ""
+
+#: inc/widgets/manga-genres.php:12
+msgid "Show Manga Genres"
+msgstr ""
+
+#: inc/widgets/manga-genres.php:15
+msgid "WP Manga: Manga Genres"
+msgstr ""
+
+#: inc/widgets/manga-genres.php:123
+msgid "Exclude Genres: "
+msgstr ""
+
+#: inc/widgets/manga-genres.php:125
+msgid "Use WP Manga Genres ID or slug, separated by comma"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:10 inc/widgets/manga-slider.php:10
+msgid "Display recent manga as slider"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:12
+msgid "WP Manga: Manga Popular Slider"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:32 inc/widgets/manga-slider.php:32
+#: inc/widgets/recent-manga.php:218 templates/manga-archive-filter.php:14
+msgid "Latest"
+msgstr "最新"
+
+#: inc/widgets/manga-popular-slider.php:33 inc/widgets/manga-slider.php:33
+#: inc/widgets/recent-manga.php:219
+msgid "Alphabet"
+msgstr "按字母排序"
+
+#: inc/widgets/manga-popular-slider.php:34 inc/widgets/manga-slider.php:34
+#: inc/widgets/recent-manga.php:220
+msgid "Ratings"
+msgstr "评分"
+
+#: inc/widgets/manga-popular-slider.php:35 inc/widgets/manga-slider.php:35
+#: inc/widgets/recent-manga.php:221 templates/manga-archive-filter.php:29
+msgid "Trending"
+msgstr "趋势"
+
+#: inc/widgets/manga-popular-slider.php:36 inc/widgets/manga-slider.php:36
+#: inc/widgets/recent-manga.php:222
+msgid "Views"
+msgstr "阅读数"
+
+#: inc/widgets/manga-popular-slider.php:38 inc/widgets/manga-slider.php:38
+#: inc/widgets/recent-manga.php:224
+msgid "Random"
+msgstr "随机"
+
+#: inc/widgets/manga-popular-slider.php:55
+msgid "Number of posts to query"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:66 inc/widgets/manga-slider.php:66
+msgid "Number of Post to show"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:70
+msgid "4"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:71
+msgid "6"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:72 inc/widgets/manga-slider.php:72
+msgid "1"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:77 inc/widgets/manga-slider.php:77
+msgid "Manga Type"
+msgstr "漫画类型"
+
+#: inc/widgets/manga-popular-slider.php:80 inc/widgets/manga-slider.php:80
+msgid "All"
+msgstr "所有"
+
+#: inc/widgets/manga-popular-slider.php:81 inc/widgets/manga-slider.php:81
+msgid "Comic (Manga) only"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:82 inc/widgets/manga-slider.php:82
+msgid "Novel (Text) only"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:83 inc/widgets/manga-slider.php:83
+msgid "Drama (Video) only"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:88 inc/widgets/manga-slider.php:88
+#: inc/widgets/recent-manga.php:255
+msgid "Genre"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:91 inc/widgets/manga-slider.php:91
+msgid "Slugs of manga genres, separated by a comma"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:95 inc/widgets/manga-slider.php:95
+#: inc/widgets/recent-manga.php:261
+#: templates/admin/settings/settings-page.php:255
+#: templates/manga-search.php:190
+msgid "Author"
+msgstr "发布人"
+
+#: inc/widgets/manga-popular-slider.php:98 inc/widgets/manga-slider.php:98
+msgid "Slugs of manga authors, separated by a comma"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:102 inc/widgets/manga-slider.php:102
+#: inc/widgets/recent-manga.php:267 templates/manga-search.php:195
+msgid "Artist"
+msgstr "创作者"
+
+#: inc/widgets/manga-popular-slider.php:105 inc/widgets/manga-slider.php:105
+msgid "Slugs of manga artists, separated by a comma"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:109 inc/widgets/manga-slider.php:109
+#: inc/widgets/recent-manga.php:273
+#: templates/admin/settings/settings-page.php:256
+msgid "Release Year"
+msgstr "发布时间"
+
+#: inc/widgets/manga-popular-slider.php:112 inc/widgets/manga-slider.php:112
+msgid "Slugs of manga releases, separated by a comma"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:119 inc/widgets/manga-slider.php:119
+msgid "Slugs of manga tags, separated by a comma"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:123 inc/widgets/manga-slider.php:123
+#: inc/widgets/recent-manga.php:279 templates/manga-archive-filter.php:10
+msgid "Order by"
+msgstr "排序"
+
+#: inc/widgets/manga-popular-slider.php:137
+msgid "Order"
+msgstr ""
+
+#: inc/widgets/manga-popular-slider.php:168 inc/widgets/manga-slider.php:170
+msgid "Autoplay"
+msgstr "自动播放"
+
+#: inc/widgets/manga-popular-slider.php:172 inc/widgets/manga-slider.php:174
+#: inc/widgets/recent-manga.php:333
+msgid "Yes"
+msgstr "是"
+
+#: inc/widgets/manga-popular-slider.php:173 inc/widgets/manga-slider.php:175
+#: inc/widgets/recent-manga.php:334
+msgid "No"
+msgstr "否"
+
+#: inc/widgets/manga-release.php:9
+msgid "Show Manga Release Years"
+msgstr "显示漫画发布时间"
+
+#: inc/widgets/manga-release.php:12
+msgid "WP Manga : Manga Release Years"
+msgstr ""
+
+#: inc/widgets/manga-release.php:88
+msgid "Other..."
+msgstr "其他..."
+
+#: inc/widgets/manga-release.php:89
+msgid "Go"
+msgstr "前往"
+
+#: inc/widgets/manga-release.php:110 inc/widgets/manga-taxonomy.php:60
+#: inc/widgets/manga-user-section.php:24
+msgid "Title:"
+msgstr "标题："
+
+#: inc/widgets/manga-release.php:116
+msgid "Exclude Years:"
+msgstr ""
+
+#: inc/widgets/manga-release.php:118
+msgid "Use Release Years Term ID or slug, separated by comma"
+msgstr ""
+
+#: inc/widgets/manga-release.php:123
+msgid "Number of years"
+msgstr ""
+
+#: inc/widgets/manga-release.php:125
+msgid "Fill-in 0 to list all Release Years"
+msgstr ""
+
+#: inc/widgets/manga-release.php:131
+msgid "Enable Go Release"
+msgstr ""
+
+#: inc/widgets/manga-search.php:8
+msgid "Manga Search"
+msgstr "搜索"
+
+#: inc/widgets/manga-search.php:9
+msgid "WP Manga: Manga Search"
+msgstr "搜索"
+
+#: inc/widgets/manga-search.php:61
+msgid "Search Advance Text : "
+msgstr "高级"
+
+#: inc/widgets/manga-search.php:63
+msgid "Change Advanced Text, leave empty to remove Advanced Text."
+msgstr ""
+
+#: inc/widgets/manga-slider.php:12
+msgid "WP Manga: Manga Hero Slider"
+msgstr ""
+
+#: inc/widgets/manga-slider.php:70
+msgid "2"
+msgstr ""
+
+#: inc/widgets/manga-slider.php:71
+msgid "3"
+msgstr ""
+
+#: inc/widgets/manga-slider.php:137 inc/widgets/recent-manga.php:307
+msgid "Order By"
+msgstr "排序"
+
+#: inc/widgets/manga-slider.php:162
+msgid "Style 3"
+msgstr ""
+
+#: inc/widgets/manga-taxonomy.php:8
+msgid "Display Manga Taxonomy"
+msgstr ""
+
+#: inc/widgets/manga-taxonomy.php:9
+msgid "WP Manga: Manga Taxonomy"
+msgstr ""
+
+#: inc/widgets/manga-taxonomy.php:64
+msgid "Taxonomy:"
+msgstr ""
+
+#: inc/widgets/manga-taxonomy.php:79
+msgid "Style:"
+msgstr ""
+
+#: inc/widgets/manga-user-section.php:10
+msgid "Show Login or Current Manga User"
+msgstr ""
+
+#: inc/widgets/manga-user-section.php:13
+msgid "WP Manga : User section"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:10
+msgid "Display Manga Posts"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:12
+msgid "WP Manga: Manga Posts"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:294
+msgid "Time Range"
+msgstr "时间范围"
+
+#: inc/widgets/recent-manga.php:297
+msgid "All Time"
+msgstr "全部时间"
+
+#: inc/widgets/recent-manga.php:298
+msgid "1 day"
+msgstr "1天"
+
+#: inc/widgets/recent-manga.php:299
+msgid "1 week"
+msgstr "1周"
+
+#: inc/widgets/recent-manga.php:300
+msgid "1 month"
+msgstr "1月"
+
+#: inc/widgets/recent-manga.php:301
+msgid "1 year"
+msgstr "1年"
+
+#: inc/widgets/recent-manga.php:303
+msgid "Affected when order by is trending"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:330
+msgid "Show Volume"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:336
+msgid "Show Volume of chapter"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:340
+msgid "ReadMore Button"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:343
+msgid "Readmore button text. Leave blank to disable this button"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:347
+msgid "ReadMore button URL"
+msgstr ""
+
+#: inc/widgets/recent-manga.php:350
+msgid "Readmore button URL"
+msgstr ""
+
+#: inc/zip-validation.php:32
+msgid "This Zip file isn't valid for this chapter type"
+msgstr ""
+
+#: inc/zip-validation.php:83
+msgid "Invalid Zip file, file contains unwanted file. Please check agains"
+msgstr ""
+
+#: inc/zip-validation.php:125
+msgid "Invalid Zip file, file contains unwanted file. Please check again"
+msgstr ""
+
+#: templates/admin/hooks.php:8
+msgid "AMP - Image Height"
+msgstr ""
+
+#: templates/admin/hooks.php:11
+#, php-format
+msgid ""
+"If this chapter uses different Image Height value than global setting in "
+"Theme Options > AMP, you can override it using this field. Value is in "
+"pixels. Read more about %s"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:30
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:27
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:42
+msgid "Chapter Name"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:33
+msgid "Chapter Extend Name"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:36
+msgid "Custom Index"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:49
+msgid "Status: "
+msgstr "状态："
+
+#: templates/admin/manga-single/chapter-edit-modal.php:53
+msgid "Uploading"
+msgstr "上传中"
+
+#: templates/admin/manga-single/chapter-edit-modal.php:60
+msgid "Chapter SEO Description: "
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:67
+msgid "Chapter warning text: "
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:77
+msgid "Storage: "
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:81
+msgid "Remove this storage"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:84
+msgid "Volume: "
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:92
+msgid "Upload images"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:95
+msgid ""
+"Upload more images to this chapter. A single image or a zip file is accepted"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:99
+msgid "Upload"
+msgstr "上传"
+
+#: templates/admin/manga-single/chapter-edit-modal.php:111
+msgid "You can sort the page by draging picture"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:119
+msgid "To enable multiple servers, use this format in the content"
+msgstr ""
+
+#: templates/admin/manga-single/chapter-edit-modal.php:120
+msgid "SERVER 1 NAME :: CONTENT 1 || SERVER 2 NAME :: CONTENT"
+msgstr "服务器1 名称::内容 1 || 服务器2 名称:: 内容"
+
+#: templates/admin/manga-single/chapter-edit-modal.php:135
+msgid "Duplicate to : "
+msgstr "重复："
+
+#: templates/admin/manga-single/chapter-edit-modal.php:138
+msgid "Duplicate"
+msgstr "重复"
+
+#: templates/admin/manga-single/chapter-edit-modal.php:141
+msgid "Save"
+msgstr "保存"
+
+#: templates/admin/manga-single/chapter-edit-modal.php:147
+msgid "Download Chapter"
+msgstr "下载章节"
+
+#: templates/admin/manga-single/chapter-edit-modal.php:151
+msgid "Close"
+msgstr "关闭"
+
+#: templates/admin/manga-single/manga-metabox.php:46
+#: templates/admin/manga-single/manga-metabox.php:87
+msgid "Manga Extra Info"
+msgstr ""
+
+#: templates/admin/manga-single/manga-metabox.php:49
+msgid "Manga Chapters List"
+msgstr ""
+
+#: templates/admin/manga-single/manga-metabox.php:55
+msgid "Upload Single Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/manga-metabox.php:58
+#: templates/admin/manga-single/manga-metabox.php:67
+#: templates/admin/manga-single/manga-metabox.php:76
+msgid "Upload Multi Chapters"
+msgstr ""
+
+#: templates/admin/manga-single/manga-metabox.php:64
+#: templates/admin/manga-single/metabox/manga-type-select.php:29
+msgid "Text Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/manga-metabox.php:73
+#: templates/admin/manga-single/metabox/manga-type-select.php:33
+msgid "Video Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/manga-metabox.php:91
+msgid "Alternative Name"
+msgstr ""
+
+#: templates/admin/manga-single/manga-metabox.php:94
+#: templates/single/info-type.php:7
+msgid "Type"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/chapter-list.php:15
+msgid "Search Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/chapter-list.php:28
+msgid "Fetching New Chapters Data"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/chapter-list.php:37
+msgid "This Manga doesn't have any chapters yet. "
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:15
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:16
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:25
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:31
+msgid "Volume"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:19
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:19
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:31
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:33
+msgid "New Volume"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:23
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:23
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:35
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:37
+msgid "Add"
+msgstr "添加"
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:30
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:46
+msgid "If you want to override a chapter, use same chapter name here"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:32
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:52
+msgid "Name Extend"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:35
+msgid ""
+"(optional) Name extend of chapter for better display => Chapter name: Name "
+"extend"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:38
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:64
+msgid "Chapter Index"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:41
+msgid "(Optional) Index of Chapter which is used to sort Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:44
+msgid "Chapter Content"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/chapter-create.php:52
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:289
+msgid "Create Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:28
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:42
+msgid "Direct File Path"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:29
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:43
+msgid "Enter direct link to .zip file on your server"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:33
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:47
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:62
+msgid "Allowed .zip file structures"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:40
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:55
+msgid "OR"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:44
+msgid "Multi Chapters File"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:48
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:115
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:137
+msgid "Allowed .zip file structure"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/content-type/manga-upload.php:57
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:58
+msgid "Upload File"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type-select.php:16
+msgid "Chapter Type"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type-select.php:19
+msgid "This setting cannot be changed after choosen."
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type-select.php:25
+msgid "Manga Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:57
+msgid ""
+"(Optional) Name extend of chapter for better display => Chapter name: Name "
+"extend"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:69
+msgid "(Optional) Index of Chapter which is used to sort Chapters"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:76
+msgid "Upload Type"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:81
+msgid "Upload Zip File"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:84
+msgid "Select Uploaded Album from Cloud Server"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:93
+msgid "Choose where to upload"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:109
+msgid "Direct Link"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:122
+msgid ""
+"Direct link on local server to the .zip file which contains all pictures of "
+"the chapter."
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:131
+msgid "File"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:144
+msgid ""
+"Update a .zip file which contains all pictures of the chapter. If you use "
+"this upload, Direct Link will be ignored"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:152
+msgid "Do you want to overwrite chapter or create a new one?"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:154
+msgid "Overwrite old chapter"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:157
+msgid "Create new chapter"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:163
+msgid "Select Chapter to overwrite "
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:174
+msgid "Upload Chapter"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:184
+msgid "Choose where to import"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:243
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:275
+msgid "Album URL"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:249
+msgid ""
+"Imgur album URL needs to be in <strong>https://imgur.com/a/{albumhash}</"
+"strong> format"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:259
+msgid "Folder URL"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:265
+msgid ""
+"AmazonS3 folder URL needs to be in <strong>https://s3.console.aws.amazon.com/"
+"s3/{bucket}/{folder_path}?region={region}</strong> format"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:281
+msgid ""
+"Flickr album URL needs to be in <strong>https://www.flickr.com/photos/{user}/"
+"albums/{album_id}</strong> format"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/chapter-upload.php:289
+msgid "Search Album"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:14
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:76
+msgid "Upload Manga"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:17
+msgid "Storage"
+msgstr ""
+
+#: templates/admin/manga-single/metabox/manga-type/manga-upload.php:64
+msgid ""
+"Use \"--\" separator in folder name for Chapter Name and Extend Name. For "
+"example: \"Chapter 1 -- Other Name\""
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:68
+#: templates/first-install/step-2.php:1
+msgid "Manga Page Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:71
+msgid "Paging Style"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:75
+#: templates/admin/settings/settings-page.php:88
+#: templates/first-install/step-2.php:26
+msgid "Default"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:76
+msgid "Load More Button"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:82
+#: templates/first-install/step-2.php:18
+msgid "Manga Archive Page"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:93
+#: templates/first-install/step-2.php:32
+msgid "Choose page for Manga archive to show all manga."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:98
+#: templates/first-install/step-2.php:37
+msgid "User Page"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:104
+#: templates/first-install/step-2.php:44
+msgid "Select User Page"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:110
+#: templates/first-install/step-2.php:50
+msgid ""
+"A page display user's bookmark, history and settings. The <code>[manga-user-"
+"page]</code> short code must be on this page."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:117
+msgid "Single Manga Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:121
+msgid "Hosting Selection"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:126
+msgid "Show Hosting Selection for Manga"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:128
+msgid ""
+"Uncheck to hide Hosting Selection. Hosting Selection should be hide if you "
+"only use one hosting for your Manga"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:134
+msgid "Reading Style Selection"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:139
+msgid "Show Reading Style selection box"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:141
+msgid ""
+"Show/hide Reading Style selection box for Manga Chapter (ie. switching "
+"between Paged and List style. Uncheck to hide Reading Style selection box. "
+"Global setting in Theme Options and in individual User Settings will be used"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:148
+msgid "Manga Default Images Storage"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:162
+msgid "Change default storage to upload Manga images"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:169
+msgid "Default Video Server"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:174
+msgid ""
+"Set default server for Video Chapter. Please enter exact server name here"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:180
+msgid "Use Anonymous Name for Hosting"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:185
+#: templates/admin/settings/settings-page.php:294
+#: templates/admin/settings/settings-page.php:306
+#: templates/admin/settings/settings-page.php:319
+#: templates/admin/settings/settings-page.php:331
+#: templates/admin/settings/settings-page.php:518
+msgid "Enable"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:187
+msgid ""
+"Use anonymous name for hosting, for example \"Server 1\", \"Server 2\"..."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:193
+msgid "Manga Rating"
+msgstr "评分"
+
+#: templates/admin/settings/settings-page.php:198
+msgid "Enable Rating for manga"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:205
+msgid "Manga Bookmark"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:210
+msgid "Enable Bookmark feature"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:217
+msgid "Manga Comment"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:222
+msgid "Enable Comment for manga"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:228
+msgid "Default Comment"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:231
+msgid "Disqus Comment"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:232
+msgid "Wordpress"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:233
+msgid "Both"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:239
+msgid "Related Manga"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:244
+msgid "Enable Related Manga"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:251
+msgid "Related by"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:257
+#: templates/content/content-search.php:89
+msgid "Artists"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:258
+#: templates/content/content-search.php:113
+msgid "Genres"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:265
+msgid "When reading, click to scroll"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:270
+msgid "Click to Scroll page when reading chapter"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:277
+msgid "SEO"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:282
+msgid "Add website name to meta title tag & meta keywords tag"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:289
+msgid "Link to All Mangas page in BreadCrumbs"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:301
+msgid "Link to First Genre in BreadCrumbs"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:308
+msgid ""
+"When manga belongs to several Genres, only the first genre will appear in "
+"the breadcrumbs"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:314
+msgid "Link to Manga Info when reaching last chapter"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:321
+msgid ""
+"When users navigate to last page of last chapter, show a button to come bank "
+"to Manga Info page"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:327
+msgid "Saving reading history for Guests"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:337
+msgid "Variable name for Chapter Pagination"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:348
+msgid "Manga Permalink Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:352
+msgid "Manga Single Slug"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:358
+msgid "Change slug for Single Manga, default slug is <strong> manga </strong>."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:365
+msgid "Manga Genres Slug"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:371
+msgid ""
+"Change slug for Manga Genres Page, default slug is <strong> manga-genre </"
+"strong>."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:378
+msgid "Manga Author Slug"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:384
+msgid ""
+"Change slug for Manga Author Page, default slug is <strong> manga-author </"
+"strong>."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:391
+msgid "Manga Artist Slug"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:397
+msgid ""
+"Change slug for Manga Artist Page, default slug is <strong> manga-artist </"
+"strong>."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:404
+msgid "Manga Tag Slug"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:410
+msgid ""
+"Change slug for Manga Tag Page, default slug is <strong> manga-tag </"
+"strong>. Do not use default \"tag\" slug"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:417
+msgid "Manga Release Year Slug"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:423
+msgid ""
+"Change slug for Manga Release Year Page, default slug is <strong> manga-"
+"release </strong>."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:428
+msgid ""
+"Remember to save the <b>Settings > Permalink</b> setting again if you change "
+"any of above values"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:431
+msgid "Manga General Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:435
+msgid "Loading Bootstrap"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:441
+msgid "Option to turn off loading Bootstrap"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:443
+msgid ""
+"Turn off loading Bootstrap might break Manga pages layout. However, in some "
+"cases, your theme already has Bootstrap, then you can switch this off to "
+"avoid conflicts."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:445
+msgid ""
+"By default, plugin would check if your theme already has Bootstrap and turn "
+"off this."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:452
+msgid "Loading Slick"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:458
+msgid "Option to turn off loading slick"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:465
+msgid "Loading FontAwesome"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:471
+msgid "Option to turn off loading FontAwesome"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:478
+msgid "Loading IonIcons"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:484
+msgid "Option to turn off loading IonIcons"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:492
+msgid "Manga Chapters Feed"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:499
+#, php-format
+msgid ""
+"Number of entries in the Chapters Feed. Link to Chapters Feed: <a href=\"%s"
+"\" target=\"_blank\">Chapters Feed</a>"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:510
+msgid "Manga User Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:513
+msgid "Allow Upload Avatar"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:520
+msgid ""
+"Allow User to upload custom avatar. Or else, Gravatar is used (based on "
+"user's email)"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:526
+msgid "Admin Bar"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:532
+msgid "Hide Admin Bar for Administrator"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:534
+msgid ""
+"By default, Admin Bar would be hidden for all user roles but Administrator. "
+"This option will let you hide Admin Bar for Administrator role."
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:540
+msgid "Notify User"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:546
+msgid "When User Bookmarked Manga has new chapter"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:553
+msgid "Webpush Notification"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:559
+msgid "Send a webpush notification for users bookmarked Manga"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:566
+msgid "Webpush Notification Content"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:573
+msgid ""
+"Message to send notification for user. Use <strong>%manga%</strong> for "
+"Manga name, <strong>%chapter%</strong> for Chapter name"
+msgstr ""
+
+#: templates/admin/settings/settings-page.php:581
+#: templates/admin/settings/settings-storage.php:410
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:34
+msgid "Blogspot Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:39
+msgid "* For Blogspot Api register :"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:41
+msgid ""
+" - You need to create a Oauth Client ID Credential and when setting, "
+"remember to put the redirect Url to your website. "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:67
+msgid ""
+"You will need Client Secret to Authorize and Upload to blogspot function"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:139
+msgid "Replace Blogspot URL"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:147
+msgid ""
+"From Madara version 1.3, Madara-Core plugin use Blogspot URL for images "
+"instead of Picasa URL as before. This button would help you to replace all "
+"images Picasa URL with Blogspot URL."
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:155
+msgid "Imgur Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:156
+msgid " - API setting for storage in Imgur.com"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:167
+msgid "You can register the client ID at "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:169
+msgid "Imgur.com"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:173
+msgid ""
+"Note that you need to create a credential with callback to your website, "
+"also the the Redirect URL should be your website "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:188
+msgid "You will need Client Secret to Authorize and Upload to imgur function"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:215
+msgid "Flickr Settings"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:216
+msgid " - API setting for storage in Flickr.com"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:226
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:232
+msgid "You can register the API Key at "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:234
+msgid "Flickr.com"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:236
+msgid "(registering API Key also include API Secret)"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:242
+msgid "API Secret"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:248
+msgid "You will need API Secret to Authorize and Upload to Flickr"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:272
+msgid "Amazon S3 settings"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:273
+msgid ""
+" - If your upload not success, please check your region when create account "
+"need to be same as your bucket region."
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:274
+msgid " - Allow to upload all files."
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:277
+msgid "* For Amazon S3 set up :"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:278
+msgid " - You need to login to your account at "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:280
+#: templates/admin/settings/settings-storage.php:297
+msgid "https://console.aws.amazon.com/"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:284
+msgid ""
+" - First thing to do is create an user to have the Access key ID and Secret "
+"access key ( register with Access Type of Programmatic access then push them "
+"to a group that have permission: \"AmazonS3FullAcess\" to get the keys ) at "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:286
+msgid "https://console.aws.amazon.com/iam"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:288
+msgid ". Then provide the user the permission to read and write."
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:291
+msgid " - After having the Key and Secret, note it and get to "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:293
+msgid "https://console.aws.amazon.com/s3/"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:295
+msgid ""
+". ( *Note : you need to create the bucket in the same region as your account "
+"when register the account at "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:299
+msgid ""
+"And Also provide the permission for Any Authenticated AWS User can read and "
+"write "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:302
+msgid ""
+" - Then go back here to input your Key ID and Secret and also the Region of "
+"your account and your Bucket then save changes and you can start to upload. "
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:307
+msgid "Access key ID"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:314
+msgid "You can create the key ID at"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:316
+msgid "console.aws.amazon.com/iam"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:323
+msgid "Secret access key"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:333
+msgid "Region"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:343
+msgid "Custom CDN"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:350
+msgid ""
+"If you have Custom CDN URL for Amazon S3 storage, enter it here. If not, "
+"just leave empty. Value does not include https"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:363
+msgid "Bucket"
+msgstr ""
+
+#: templates/admin/settings/settings-storage.php:390
+msgid ""
+"You don't have any buckets yet. Please create one in your Amazon account"
+msgstr ""
+
+#: templates/content/content-none.php:11
+#, php-format
+msgid "There is no Manga in this %s - %s"
+msgstr ""
+
+#: templates/content/content-none.php:13
+msgid "There is no Manga yet"
+msgstr ""
+
+#: templates/content/content-none.php:15
+msgid "No matches found. Try a different search..."
+msgstr ""
+
+#: templates/content/content-search.php:46
+#: templates/single/info-alternative-name.php:8
+msgid "Alternative"
+msgstr "别名"
+
+#: templates/content/content-search.php:64
+msgid "Authors"
+msgstr "发布人"
+
+#: templates/content/content-search.php:136
+#: templates/first-install/step-1.php:42 templates/manga-search.php:205
+#: templates/single/info-status.php:4
+msgid "Status"
+msgstr "状态"
+
+#: templates/content/content-search.php:152 templates/single/info-release.php:4
+msgid "Release"
+msgstr "发布"
+
+#: templates/content/content-search.php:181
+msgid "Latest chapter"
+msgstr "最新章节"
+
+#: templates/first-install/first-install-html.php:13
+msgid "WP Manga &rsaquo; Welcome"
+msgstr ""
+
+#: templates/first-install/step-0.php:1
+msgid "Welcome to WP Manga plugin!"
+msgstr ""
+
+#: templates/first-install/step-0.php:4
+msgid ""
+"Thanks for choosing WP Manga plugin - the best solution to build your manga "
+"website!"
+msgstr ""
+
+#: templates/first-install/step-0.php:7
+msgid ""
+"By taking a few minutes, you can learn more about WP Manga settings and "
+"usages to get started with WP Manga."
+msgstr ""
+
+#: templates/first-install/step-0.php:10
+msgid ""
+"Please feel free to exit if you don't have time right now or want to skip "
+"this instruction. "
+msgstr ""
+
+#: templates/first-install/step-0.php:13 templates/first-install/step-1.php:153
+#: templates/first-install/step-2.php:57 templates/first-install/step-3.php:35
+#: templates/first-install/step-4.php:18 templates/first-install/step-5.php:9
+msgid "Maybe later"
+msgstr ""
+
+#: templates/first-install/step-1.php:1
+msgid "Before Getting Started with WP Manga Plugin"
+msgstr ""
+
+#: templates/first-install/step-1.php:4
+msgid ""
+"Since WP Manga Plugin is a plugin to upload and manage Manga, so there are a "
+"fews requirements and recommendations on your server settings to make it "
+"works properly. "
+msgstr ""
+
+#: templates/first-install/step-1.php:8
+msgid ""
+"These are settings you need to notice and the number in right side is the "
+"current config in your server."
+msgstr ""
+
+#: templates/first-install/step-1.php:12
+msgid ""
+"Please make sure your file size does not exceed the configurations below, "
+"and change it to fit your needs. "
+msgstr ""
+
+#: templates/first-install/step-1.php:33
+msgid "Settings"
+msgstr ""
+
+#: templates/first-install/step-1.php:36
+msgid "Require/Recommend"
+msgstr ""
+
+#: templates/first-install/step-1.php:39
+msgid "Your Current Settings"
+msgstr ""
+
+#: templates/first-install/step-1.php:142
+msgid "high"
+msgstr ""
+
+#: templates/first-install/step-1.php:145
+msgid "medium"
+msgstr ""
+
+#: templates/first-install/step-1.php:148
+msgid "low"
+msgstr ""
+
+#: templates/first-install/step-2.php:4
+msgid ""
+" By default, WP Manga plugin would generate Manga Archive Page and User Page "
+"automatically. However, you can be able to set a Single Page to be Manga "
+"Archive Page and User Page. "
+msgstr ""
+
+#: templates/first-install/step-2.php:12 templates/first-install/step-3.php:14
+msgid " If you want to skip this setting, then you can get it back in "
+msgstr ""
+
+#: templates/first-install/step-2.php:13
+msgid "Manga > WP Manga settings"
+msgstr ""
+
+#: templates/first-install/step-3.php:1
+msgid "Manga Post Type Settings"
+msgstr ""
+
+#: templates/first-install/step-3.php:4
+msgid ""
+"The default slug for Manga Post type is <code>manga</code>, but you can "
+"change the slug of Manga Post Type to different slug. "
+msgstr ""
+
+#: templates/first-install/step-3.php:19
+msgid "Manga Slug"
+msgstr ""
+
+#: templates/first-install/step-3.php:28
+msgid ""
+"Change slug for Manga, default slug is <code>manga</code>. Manga slug will "
+"be used for Manga Single and Manga Archive page."
+msgstr ""
+
+#: templates/first-install/step-4.php:1
+msgid "Configure WP Manga Storage"
+msgstr ""
+
+#: templates/first-install/step-4.php:4
+msgid ""
+"Beside Local storage, WP Manga integrate 3 popular storage services to store "
+"Manga data for your website. Includes <strong>Blogspot (Google Photos), "
+"Imgur Settings, Amazon S3 services.</strong>."
+msgstr ""
+
+#: templates/first-install/step-4.php:14
+msgid "You will find the settings for this in "
+msgstr ""
+
+#: templates/first-install/step-5.php:1
+msgid "Thanks for staying tuned! "
+msgstr ""
+
+#: templates/first-install/step-5.php:3
+msgid "That's all! You can start to create and upload Manga right now!"
+msgstr ""
+
+#: templates/first-install/step-5.php:6
+msgid "Please go to our Document for further instructions and tutorials."
+msgstr ""
+
+#: templates/first-install/step-5.php:10
+msgid "Back to Dashboard"
+msgstr ""
+
+#: templates/login.php:4
+msgid "Log In"
+msgstr "登陆"
+
+#: templates/login.php:36
+msgid "Username or Email Address *"
+msgstr "用户名或Email地址 *"
+
+#: templates/login.php:41 templates/login.php:99
+msgid "Password *"
+msgstr "密码 *"
+
+#: templates/login.php:50
+msgid "Remember Me "
+msgstr "记住我"
+
+#: templates/login.php:60 templates/login.php:115 templates/login.php:137
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: templates/login.php:63 templates/login.php:118
+msgid "&larr; Back to "
+msgstr "&larr; 返回 "
+
+#: templates/login.php:82
+msgid "Sign Up"
+msgstr "注册"
+
+#: templates/login.php:84
+msgid "Register For This Site."
+msgstr "注册"
+
+#: templates/login.php:87
+msgid "Username *"
+msgstr "用户名 *"
+
+#: templates/login.php:93
+msgid "Email Address *"
+msgstr "Email *"
+
+#: templates/login.php:109
+msgid "Register"
+msgstr "注册"
+
+#: templates/login.php:113
+msgid "Log in"
+msgstr "登陆"
+
+#: templates/login.php:139
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr "请输入用户用或者Email地址。你将收到一封带有创建新密码链接的邮件。"
+
+#: templates/login.php:142
+msgid "Username or Email Address"
+msgstr "用户名或Email地址"
+
+#: templates/login.php:148
+msgid "Get New Password"
+msgstr "获取新密码"
+
+#: templates/login.php:153
+msgid "&larr; Back to  "
+msgstr "&larr; 返回 "
+
+#: templates/manga-archive-filter.php:19
+msgid "A-Z"
+msgstr "A-Z"
+
+#: templates/manga-archive-filter.php:24 templates/single/info-rating.php:9
+msgid "Rating"
+msgstr "评分"
+
+#: templates/manga-archive-filter.php:34
+msgid "Most Views"
+msgstr "最多阅读"
+
+#: templates/manga-archive-filter.php:39
+msgid "New"
+msgstr "新增"
+
+#: templates/manga-archive.php:65 templates/manga-search.php:237
+#, php-format
+msgid "%s result"
+msgstr "%s 结果"
+
+#: templates/manga-breadcrumb.php:21
+msgid "Home"
+msgstr "首页"
+
+#: templates/manga-breadcrumb.php:27
+msgid "All Mangas"
+msgstr "所有漫画"
+
+#: templates/manga-feed.php:44
+msgid "Unknown"
+msgstr "未知"
+
+#: templates/manga-related.php:107
+msgid "YOU MAY ALSO LIKE"
+msgstr "您也许喜欢"
+
+#: templates/manga-search.php:143
+#: templates/widgets/manga-search/manga-search.php:7
+msgid "Search for:"
+msgstr "搜索："
+
+#: templates/manga-search.php:144
+msgid "Search..."
+msgstr "搜索..."
+
+#: templates/manga-search.php:155 templates/manga-search.php:216
+#: templates/widgets/manga-search/manga-search.php:11
+msgid "Search"
+msgstr "搜索"
+
+#: templates/manga-search.php:157
+#: templates/widgets/manga-search/manga-search.php:13
+msgid "Advanced"
+msgstr "高级"
+
+#: templates/manga-search.php:200
+msgid "Year of Released"
+msgstr "发布时间"
+
+#: templates/manga-search.php:212
+msgid "Ongoing"
+msgstr "更新中"
+
+#: templates/manga-search.php:217
+msgid "Reset"
+msgstr "重置"
+
+#: templates/manga-single.php:90
+msgid "Summary"
+msgstr "概要"
+
+#: templates/manga-single.php:103
+msgid "Show more  "
+msgstr "显示更多"
+
+#: templates/manga-single.php:116
+msgid "Edit This Manga"
+msgstr ""
+
+#: templates/reset-password.php:11
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: templates/reset-password.php:13
+msgid "Enter your new password below."
+msgstr "在下方输入新密码"
+
+#: templates/reset-password.php:16
+msgid "New Password"
+msgstr "新密码"
+
+#: templates/reset-password.php:19
+msgid "Confirm New Password"
+msgstr "确认新密码"
+
+#: templates/reset-password.php:28
+msgid "Set New Password"
+msgstr "设置新密码"
+
+#: templates/single/info-artists.php:7
+msgid "Artist(s)"
+msgstr "创作者"
+
+#: templates/single/info-authors.php:7
+msgid "Author(s)"
+msgstr "发布人"
+
+#: templates/single/info-chapters.php:4
+msgid "LATEST MANGA RELEASES"
+msgstr "最近发布的漫画"
+
+#: templates/single/info-chapters.php:129
+msgid "There is no chapters"
+msgstr "没有章节"
+
+#: templates/single/info-chapters.php:144
+msgid "Manga has no chapter yet."
+msgstr ""
+
+#: templates/single/info-genres.php:7
+msgid "Genre(s)"
+msgstr ""
+
+#: templates/single/info-rank.php:4
+msgid "Rank"
+msgstr ""
+
+#: templates/single/info-rating.php:12
+#, php-format
+msgid ""
+"<span> <span> Average <span property=\"ratingValue\" id=\"averagerate\"> %s</"
+"span> / <span property=\"bestRating\">5</span> </span> </span> out of <span "
+"property=\"ratingCount\" id=\"countrate\">%s</span>"
+msgstr ""
+"<span property=\"ratingValue\" id=\"averagerate\"> %s</span>"
+
+
+#: templates/single/user-actions.php:11
+msgid "Comments"
+msgstr "评论"
+
+#: templates/single/user-actions.php:18
+#, php-format
+msgid "%s comment"
+msgstr "%s 评论"
+
+#: templates/single/user-actions.php:20
+#, php-format
+msgid "%d comment"
+msgstr "%d 评论"
+
+#: templates/user/page/bookmark.php:20
+msgid "Time"
+msgstr "时间"
+
+#: templates/user/page/bookmark.php:21
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/user/page/bookmark.php:76
+msgid "page "
+msgstr "页码"
+
+#: templates/user/page/bookmark.php:116
+msgid "Check all"
+msgstr "选中所有"
+
+#: templates/user/page/bookmark.php:118
+msgid "Delete"
+msgstr "删除"
+
+#: templates/user/page/bookmark.php:125
+msgid "No Manga Bookmarked"
+msgstr "没有书签"
+
+#: templates/user/page/reader-settings.php:21
+msgid "Success!"
+msgstr "成功！"
+
+#: templates/user/page/reader-settings.php:21
+msgid " Update successfully"
+msgstr "更新成功"
+
+#: templates/user/page/reader-settings.php:28
+msgid "Reading Settings"
+msgstr "阅读设置"
+
+#: templates/user/page/reader-settings.php:32
+msgid "Reading Style"
+msgstr "阅读样式"
+
+#: templates/user/page/reader-settings.php:36
+msgid "Paged"
+msgstr "分页"
+
+#: templates/user/page/reader-settings.php:40
+msgid "List"
+msgstr "单页"
+
+#: templates/user/page/reader-settings.php:44
+msgid "Submit"
+msgstr "提交"
+
+#: templates/user/settings.php:18
+msgid "Bookmarks"
+msgstr "书签"
+
+#: templates/user/settings.php:21
+msgid "Reader Settings"
+msgstr "阅读器设置"
+
+#: templates/widgets/manga-search/manga-search.php:8
+msgid "Search ..."
+msgstr "搜索..."
+
+#: wp-manga.php:319
+#, php-format
+msgid "Page %s"
+msgstr "第 %s 页"
+
+#: wp-manga.php:372
+msgid "WP Manga Storage"
+msgstr ""
+
+#: wp-manga.php:400
+msgid "Are you sure that you want to delete this Chapter?"
+msgstr ""
+
+#: wp-manga.php:401
+msgid "Are you sure you want to delete this Volume and all chapters inside?"
+msgstr ""
+
+#: wp-manga.php:402
+msgid "By this, you will delete all chapters without Volume."
+msgstr ""
+
+#: wp-manga.php:655
+msgid "Showing search results for: "
+msgstr "显示搜索结果："
+
+#: wp-manga.php:776
+msgid "Cannot get Google Refresh Token, please try again"
+msgstr ""
+
+#: wp-manga.php:797
+msgid "Imgur"
+msgstr ""
+
+#: wp-manga.php:808
+msgid "Flickr"
+msgstr ""
+
+#: wp-manga.php:816
+msgid "Blogspot"
+msgstr ""
+
+#: wp-manga.php:825
+msgid "Amazon S3"
+msgstr ""
+
+#: wp-manga.php:903
+msgid "Tags: "
+msgstr ""
+
+#: wp-manga.php:1277
+#, php-format
+msgid "Server %d"
+msgstr ""
