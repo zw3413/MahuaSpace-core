@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: inc/user-actions.php:64 templates/login.php:22
 msgid "Sign in"
-msgstr "登陆"
+msgstr "登录"
 
 #: inc/user-actions.php:65
 msgid "Sign up"
@@ -2927,7 +2927,7 @@ msgstr ""
 
 #: templates/login.php:4
 msgid "Log In"
-msgstr "登陆"
+msgstr "登录"
 
 #: templates/login.php:36
 msgid "Username or Email Address *"
@@ -2971,7 +2971,7 @@ msgstr "注册"
 
 #: templates/login.php:113
 msgid "Log in"
-msgstr "登陆"
+msgstr "登录"
 
 #: templates/login.php:139
 msgid ""
