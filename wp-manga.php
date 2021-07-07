@@ -1,13 +1,6 @@
 <?php
 	/**
-	 *  Plugin Name: Madara - Core
-	 *  Description: The first and most popular Manga plugin for WordPress
-	 *  Plugin URI: https://www.mangabooth.com/
-	 *  Author: MangaBooth
-	 *  Author URI: https://themeforest.net/user/wpstylish
-	 *  Author Email: mangabooth@gmail.com
-	 *  Version: 1.6.4
-	 *  Text Domain: manga-core
+	 *  Plugin Name: MahuaSpace - Core
 	 * @since 1.0
 	 */
 

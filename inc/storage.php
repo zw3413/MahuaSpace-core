@@ -761,7 +761,8 @@
 					}
 				}
 			} else {
-				if ( strpos( $this->mime_content_type( $file ), 'image' ) !== false ) {
+				// if ( strpos( $this->mime_content_type( $file ), 'image' ) !== false ) {
+				if ( strpos( $this->mime_content_type( $dir ), 'image' ) !== false ) {
 					$count ++;
 				}
 			}
