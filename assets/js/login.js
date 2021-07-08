@@ -294,6 +294,7 @@ jQuery(document).ready(function ($) {
 		$('.modal').modal('hide');
 		setTimeout(function () {
 			$('#form-login').modal('show');
+			$('#form-login').unbind('click');
 		}, 500);
 	});
 
@@ -302,6 +303,7 @@ jQuery(document).ready(function ($) {
 		$('.modal').modal('hide');
 		setTimeout(function () {
 			$('#form-reset').modal('show');
+			$('#form-reset').unbind('click');
 		}, 500);
 	});
 
